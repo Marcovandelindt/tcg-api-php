@@ -1,0 +1,17 @@
+{
+  "name": "marcovandelindt/tcg-api-php",
+  "description": "Easily retrieve card data via the TCG API",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PokemonTCG\\": "src/PokemonTCG/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
